@@ -1,0 +1,124 @@
+#circle {
+    height: 50px;
+    width: 50px;
+    background-color:coral;
+    border-radius: 60%;
+    display: inline-block;
+    text-align: center;
+    left: 60%; 
+    top: 70%;
+    transform: translateX(-70%) translateY(-2%);
+  }
+  .stt{
+      text-align: center;
+  }
+.tt{
+    
+    font-size: 22px;
+    margin-right: 2px;
+    padding-inline: 20px;
+ 
+} 
+.pn{
+    text-align: center;
+    font-size: 30px;
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+.t{
+    font-weight: normal;
+    font-size: 22px;
+    font-weight: bold;
+}
+.ico{
+    font-size: 22px;
+    color: black;
+}
+.ct{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.ly{
+    font-size: 19px;
+    border-left: red solid 3px;
+    padding-left :20px;
+    height: auto;
+    background-color: rgb(223, 247, 247);
+}
+.table, th, td {
+    border: 1px solid black;
+  }
+.la{
+    font-size: 19px;
+    border-left: red solid 5px;
+    padding-left :20px;
+    background-color: rgb(223, 247, 247);
+    width: 100%;
+}
+.httt{
+    background-color:khaki ;
+    height: auto;
+    width: 100%;
+    border-style: solid 15px;
+    padding-top: 10px;
+}
+.nn{
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.nn1{
+    text-decoration-line: dashed rgb(23, 79, 136) ;
+    font-size: 19px;
+    margin-bottom: 3px;
+   
+}
+hr {
+    color: gray;
+    background: gray;
+    border: 0;
+    height: 1px;
+    margin: 10px 0 20px; 
+}
+.ov{
+    width: auto;
+    height: 200px;
+    overflow: auto;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+.btd {
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .indam{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .lbkh{
+      
+      height: 50px;
+      width: 100%;;
+  }
+  .tuyenne{
+      padding-left: 0px;
+      
+  }
+  .tuyenne1{
+      text-align: right;
+      
+  }
+  .tuyen2{
+      padding-top: 10px;
+      padding-right: 190px;
+  }
+  .ngaysinh{
+      padding-left: 0px;
+      width: 100%;
+      
+  }

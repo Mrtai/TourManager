@@ -1,0 +1,463 @@
+.label-banner{
+    color: #fc3400;
+    padding-top: 40px;
+    padding-left: 60px;
+    font-weight: 500;
+    font-size: 17.5px;
+    text-shadow: 0.5px 0.5px #ffd200;
+}
+.carousel-inner{
+  position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.n3-tour-description .slideshow-pt.col-lg-8{
+  padding-right: 0;
+}
+.pos-relative{
+  position: relative;
+}
+@media (min-width: 1200px){
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 1200px){
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+      float: left;
+  }
+}
+@media (min-width: 768px){
+  .col-sm-12 {
+    width: 100%;
+}
+}
+@media (min-width: 768px){
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}}
+
+
+.n3-tour-description .info.col-lg-4 {
+    padding-left: 0;
+}
+@media (min-width: 1200px){
+.col-lg-4 {
+    width: 33.33333333%;
+}}
+@media (min-width: 1200px){
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: left;
+}}
+@media (min-width: 992px){
+.col-md-12 {
+    width: 100%;
+}}
+@media (min-width: 992px){
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}}
+@media (min-width: 768px){
+.col-sm-12 {
+    width: 100%;
+}}
+@media (min-width: 768px){
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}}
+.col-xs-12 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.qq{
+  border-bottom: solid 1px;
+}
+body {
+    font-family: 'Roboto',serif!important;
+    font-size: 15px!important;
+    min-width: 320px;
+    color: #212121;
+}
+body {
+    line-height: 1;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #777;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::selection {
+    color: #fff;
+    background: #fc3400;
+}
+.n3-tour-description .frame-info {
+  background: #f1f1f1;
+  padding: 20px;
+  height: 500px;
+}
+.pos-relative {
+  position: relative;
+}
+.n3-tour-description .sec1 {
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+}
+.n3-tour-description .frame-rating {
+  margin-bottom: 10px;
+  margin-top: 0;
+  width: 100%;
+}
+.f-left {
+  float: left;
+}
+.rateit {
+  display: -moz-inline-box;
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+.rateit {
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+.rateit button.rateit-reset {
+  background: url(https://travel.com.vn/Content/ThemeHe/js/RateIt/delete.gif) 0 0;
+  width: 16px;
+  height: 16px;
+  display: -moz-inline-box;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.rateit .rateit-range {
+  position: relative;
+  display: -moz-inline-box;
+  display: inline-block;
+  background: url(https://travel.com.vn/Content/ThemeHe/js/RateIt/star.gif);
+  height: 16px;
+  outline: none;
+}
+.rateit .rateit-range {
+  position: relative;
+  display: -moz-inline-box;
+  display: inline-block;
+  background: url(https://travel.com.vn/content/themehe/img/star.gif);
+  outline: none;
+  margin-top: -8px;
+  margin-right: 15px;
+  width: 80px;
+  height: 16px;
+}
+.rateit .rateit-selected {
+  background: url(https://travel.com.vn/content/themehe/img/star.gif) left -16px;
+}
+.rateit .rateit-hover, .rateit .rateit-selected {
+  position: absolute;
+  left: 0px;
+}
+.rateit .rateit-range * {
+  display: block;
+}
+.rateit .rateit-range * {
+  display: block;
+}
+.rateit .rateit-hover, .rateit .rateit-selected {
+  position: absolute;
+  left: 0;
+}
+.rateit .rateit-selected {
+  background: url(https://travel.com.vn/content/themehe/img/star.gif) left -16px;
+}
+.rateit-selected {
+  height: 16px;
+  width: 64px;
+  display: block;
+}
+.rateit .rateit-hover {
+  background: url(https://travel.com.vn/content/themehe/img/star.gif) left -32px;
+}
+.rateit .rateit-hover, .rateit .rateit-selected {
+  position: absolute;
+  left: 0px;
+}
+.rateit .rateit-range * {
+  display: block;
+}
+.rateit .rateit-range * {
+  display: block;
+}
+.rateit .rateit-hover, .rateit .rateit-selected {
+  position: absolute;
+  left: 0;
+}
+.rateit-hover {
+  height: 16px;
+  width: 64px;
+  display: none;
+  float: left;
+}
+.hreview-aggregate {
+  margin-top: -5px;
+  float: left;
+}
+strong {
+  font-weight: bold;
+}
+.viewed {
+  margin-bottom: 15px;
+}
+.viewed i {
+  color: #888;
+}
+.fa, .fas {
+  font-weight: 900;
+}
+.fa, .far, .fas {
+  font-family: Font Awesome\ 5 Free;
+}
+.fa, .fab, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fa, .fas {
+  font-weight: 900;
+}
+.fa, .far, .fas {
+  font-family: Font Awesome\ 5 Free;
+}
+.fa, .fab, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.viewed span {
+  color: #333;
+  font-weight: bold;
+}
+.sec2 {
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 15px;
+}
+.mg-bot10 {
+  margin-bottom: 10px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.mg-bot10 {
+  margin-bottom: 10px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+ .sec2 {
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 15px;
+}
+.col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  float: left;
+}
+@media (min-width: 1200px)
+{
+.col-lg-8 {
+    width: 66.66666667%;
+}
+}
+@media (min-width: 992px){
+.col-lg-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}}
+@media (min-width: 768px){
+.col-md-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+}
+@media (min-width: 576px){
+.col-sm-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+*{
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+.n3-tour-description .sec3 {
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 15px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.n3-tour-description .sec3 .unit {
+  font-size: 14px;
+}
+.n3-tour-description .sec3 .sit {
+  color: #fc3400;
+  font-size: 14px;
+  font-weight: bold;
+}
+.span{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+@media (min-width: 1200px)
+{
+.col-lg-4 {
+    width: 33.33333333%;
+}
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.font-chu{
+  letter-spacing : 0px;
+}
+
+.btn-book{
+  border: none;
+  background : #f85959;
+  border-radius:  5px;
+}
+.container{
+  text-align: left;
+}
+
