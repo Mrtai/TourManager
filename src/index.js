@@ -1,22 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reducer from "./reducers/index";
 
-import { createStore } from 'redux';
-import myReducer from './reducers/index'
-import { Provider } from 'react-redux';
+import { Provider } from "react-redux";
+import { createStore, applyMiddleware } from "redux";
+import createSagaMiddleware from "redux-saga";
+import { watchSignUpOn } from "./sagas/saga/saga";
 
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(reducer, applyMiddleware(sagaMiddleware));
 
-const store = createStore(
-    myReducer,
-);
-
+sagaMiddleware.run(watchSignUpOn);
 ReactDOM.render(
-    <Provider store={ store }>
-        <App />
-    </Provider>,
-    document.getElementById('root')
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
 );
-serviceWorker.unregister();

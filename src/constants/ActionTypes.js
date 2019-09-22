@@ -6,4 +6,6 @@ export const SEARCH_TOUR = 'SEARCH_TOUR';
 //===========================================
 // login ====================================
 export const LOGIN = 'LOGIN';
+export const SIGN_UP = 'SIGN_UP';
+
 //===========================================

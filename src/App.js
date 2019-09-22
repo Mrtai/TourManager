@@ -13,6 +13,7 @@ import routes from './routes';
 import Menu from './components/Menu';
 import DetailTour from './components/tour/detailTour';
 import Login from './components/login/login';
+import SignUp from './components/signup/SignUp';
 
 export default class App extends Component {
   render() {
@@ -24,6 +25,7 @@ export default class App extends Component {
     return (
       <Router>
         <Login />
+        <SignUp />
         <div className="App">
           <Slide />
           {/*viet router ===========================================*/}

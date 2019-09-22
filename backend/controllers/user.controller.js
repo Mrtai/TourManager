@@ -5,7 +5,7 @@ module.exports.getData = async (req, res) => {
     res.json(data);
 };
 
-module.exports.createUser = (req, res) => {
+module.exports.AddUser = (req, res) => {
     let user = new UserModel(req.body);
 
     user.save()

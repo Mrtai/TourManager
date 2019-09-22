@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as actions from './../../actions/index';
 import { connect } from 'react-redux';
 import axios from 'axios';
+import { Link } from "react-router-dom";
 
 class login extends Component {
     constructor(props) {
@@ -65,7 +66,7 @@ class login extends Component {
                         <div className="modal-content">
                             <div className="modal-header">
 
-                                <h4 className="modal-title">Đăng nhập</h4>
+                                <h4 className="modal-title">Login</h4>
                                 <button type="button" className="close" data-dismiss="modal">×</button>
                             </div>
 
@@ -76,14 +77,17 @@ class login extends Component {
                                 <form onSubmit={this.onSubmit}>
 
                                     <div className="form-group">
-                                        <label >Tên đăng nhập</label>
+                                        <label >User name</label>
                                         <input type="text" name="username" className="form-control" id="" placeholder="Tên đăng nhập của bạn" onChange={this.onChange} />
                                     </div>
                                     <div className="form-group">
-                                        <label >Mật khẩu</label>
+                                        <label >password</label>
                                         <input type="password" name="password" className="form-control" id="" placeholder="**********" onChange={this.onChange} />
                                     </div>
-                                    <button type="subbmit" className="btn btn-primary">Đăng nhập</button>
+                                    <button type="subbmit" className="btn btn-primary">Login</button>
+                                    <div style={{ float: "right" }}>
+                                        <div style={{ float: "left" }}> Bạn chưa có Tài khoản ? <Link data-dismiss="modal" data-toggle="modal" data-target="#myModalSignUp" className="" ><span>Sign Up</span></Link></div>
+                                    </div>
 
                                 </form>
 
@@ -92,6 +96,7 @@ class login extends Component {
 
 
                             <div className="modal-footer">
+
                                 <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
                             </div>
                         </div>

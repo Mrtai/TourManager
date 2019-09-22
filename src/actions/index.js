@@ -3,18 +3,18 @@ import * as types from './../constants/ActionTypes';
 // tours =============================================
 export const listTours = () => {
     return {
-        type : types.LIST_ALL
+        type: types.LIST_ALL
     }
 };
 export const checkStar = (rating) => {
     return {
-        type : types.CHECK_RATING,
+        type: types.CHECK_RATING,
         rating
     }
 };
 export const searchTour = (price_min, price_max) => {
     return {
-        type : types.SEARCH_TOUR,
+        type: types.SEARCH_TOUR,
         price_min,
         price_max
     }
@@ -22,8 +22,15 @@ export const searchTour = (price_min, price_max) => {
 // login ==============================================
 export const login = (username, password) => {
     return {
-        type : types.LOGIN,
-        username, 
+        type: types.LOGIN,
+        username,
         password
     }
 };
+export const SignUp = (user) => {
+    return {
+        type: types.SIGN_UP,
+        user: user
+    }
+}
+//====================================================

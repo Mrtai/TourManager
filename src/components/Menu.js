@@ -55,7 +55,6 @@ class Menu extends Component {
         else {
             result = (<li className="nav-item cta">
                 <a data-toggle="modal" data-target="#myModal" className="nav-link" style={{ float : "left"}}><span>Login</span></a>
-                <a href="contact.html" className="nav-link nav-item cta" style={{ float : "left"}}><span>Sign In</span></a>
             </li>
             )
         }
