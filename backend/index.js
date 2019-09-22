@@ -2,8 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const ContactRoute = require('./routes/contact.route');
-const LoginRoute = require('./routes/login.route');
-
+const LoginRoute = require('./routes/user.route');
+const TouristPlacesRoute = require('./routes/touristplaces.route')
 const app = express();
 
 app.use(express.json());
@@ -23,6 +23,7 @@ mongoose.connection.on('erro', () => console.log('Error'));
 
 app.use('/api/contacts', ContactRoute);
 app.use('/api/login', LoginRoute);
+app.use('/api/touristplaces', TouristPlacesRoute);
 
 //=======================
 app.get('/', (req, res) => res.send('Web API'));
