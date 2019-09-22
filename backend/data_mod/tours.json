@@ -1,0 +1,18 @@
+{
+    "tours": [
+        {
+            "id": 1,
+            "title": "Du lịch Nha Trang",
+            "description": "Mô tả",
+            "status": 2,
+            "price": 100
+        },
+        {
+            "id": 1,
+            "title": "Du lịch Nha Trang",
+            "description": "Mô tả",
+            "status": 2,
+            "price": 100
+        }
+    ]
+}
