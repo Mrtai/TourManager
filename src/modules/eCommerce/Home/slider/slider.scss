@@ -1,0 +1,23 @@
+.slider{
+    padding : 0px !important
+}
+.banner :hover{
+    background : #f85959 !important;
+    color : white !important;
+}
+.icon-banner:hover{
+    color : black
+}
+
+.icon-banner{
+    font-size: 60px;
+    color: #088A68;
+}
+.slide-home{
+    background-image : url("http://thuthuatphanmem.vn/uploads/2018/06/18/hinh-nen-may-tinh-4k-binh-minh-tren-bien-xanh-dep_033012202.jpg");
+    height: 1200px;
+}
+.text-slider{
+    position: absolute;
+    z-index: 1;
+}

@@ -1,21 +1,27 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import reducer from "./reducers/index";
+import React from "react"
+import ReactDOM from "react-dom"
+import {Router, Switch, Route} from "react-router-dom"
+import {Provider} from "react-redux"
+import {message} from "antd"
+import App from "./containers/App"
+import { NotificationContainer } from 'react-notifications';
+import configureStore, {history} from "./base/redux/store"
 
-import { Provider } from "react-redux";
-import { createStore, applyMiddleware } from "redux";
-import createSagaMiddleware from "redux-saga";
-import { watchSignUpOn } from "./sagas/saga/saga";
+message.config({
+    top: 100,
+    maxCount: 1,
+    duration: 2
+})
 
-const sagaMiddleware = createSagaMiddleware();
-const store = createStore(reducer, applyMiddleware(sagaMiddleware));
-
-sagaMiddleware.run(watchSignUpOn);
+const store = configureStore();
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById("root")
-);
+    <Provider store={store}>
+        <Router history={history} >
+            <Switch>
+                <Route path="/" component={App} />
+            </Switch>
+            <NotificationContainer />
+        </Router>
+    </Provider>,
+    document.getElementById("root")
+)
